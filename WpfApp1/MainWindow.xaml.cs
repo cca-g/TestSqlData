@@ -164,6 +164,7 @@ namespace WpfApp1
                 {
                     PipPhysical.AddRange(DataBase.Physical.Where(x => x.OID == res_1[i].OIDTo).ToList());
                 }
+            
             }
         }
     }
